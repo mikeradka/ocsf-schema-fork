@@ -43,7 +43,6 @@ Thankyou! -->
 
 ## [Unreleased]
 ### Bugfixes
-### Bugfixes
 * #### Dictionary Attributes
   1. Fixed `tunnel_type_id` description in `dictionary.json` to contain the actual enum values. [#]()
 
