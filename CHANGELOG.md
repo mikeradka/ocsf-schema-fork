@@ -44,7 +44,7 @@ Thankyou! -->
 ## [Unreleased]
 ### Bugfixes
 * #### Dictionary Attributes
-  1. Fixed `tunnel_type_id` description in `dictionary.json` to contain the actual enum values. [#1602](https://github.com/ocsf/ocsf-schema/pull/1602)
+  1. Added `tunnel_type_id` enum values to `dictionary.json` to resolve the anti-pattern of missing enums in the dictionary attribute. [#1602](https://github.com/ocsf/ocsf-schema/pull/1602)
 
 
 ## [v1.8.0] - Mar 16th, 2026
