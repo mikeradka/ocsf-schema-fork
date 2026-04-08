@@ -6721,7 +6721,21 @@
       "caption": "Type",
       "description": "The normalized tunnel type ID.",
       "sibling": "tunnel_type",
-      "type": "integer_t"
+      "type": "integer_t",
+      "enum": {
+        "0": {
+          "caption": "Unknown"
+        },
+        "1": {
+          "caption": "Split Tunnel"
+        },
+        "2": {
+          "caption": "Full Tunnel"
+        },
+        "99": {
+          "caption": "Other"
+        }
+      }
     },
     "type": {
       "caption": "Type",

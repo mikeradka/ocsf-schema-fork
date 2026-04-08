@@ -42,6 +42,10 @@ Thankyou! -->
 -->
 
 ## [Unreleased]
+### Bugfixes
+### Bugfixes
+* #### Dictionary Attributes
+  1. Fixed `tunnel_type_id` description in `dictionary.json` to contain the actual enum values. [#]()
 
 
 ## [v1.8.0] - Mar 16th, 2026
