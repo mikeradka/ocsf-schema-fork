@@ -6718,7 +6718,7 @@
       "type": "string_t"
     },
     "tunnel_type_id": {
-      "caption": "Type",
+      "caption": "Tunnel Type ID",
       "description": "The normalized tunnel type ID.",
       "sibling": "tunnel_type",
       "type": "integer_t",
