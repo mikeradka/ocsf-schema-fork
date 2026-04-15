@@ -83,7 +83,7 @@
       "requirement": "recommended"
     },
     "tunnel_type": {
-      "description": "The type of tunnel configuration, indicating the scope of traffic routed through the connection. Example: <code>Split Tunnel</code> or <code>Full Tunnel</code>.",
+      "description": "The type of tunnel configuration, normalized to the caption of the tunnel_type_id value, indicating the scope of traffic routed through the connection. Example: <code>Split Tunnel</code> or <code>Full Tunnel</code>.",
       "group": "primary",
       "requirement": "recommended"
     },
