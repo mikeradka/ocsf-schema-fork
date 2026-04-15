@@ -6724,16 +6724,20 @@
       "type": "integer_t",
       "enum": {
         "0": {
-          "caption": "Unknown"
+          "caption": "Unknown",
+          "description": "The type of tunnel configuration is unknown."
         },
         "1": {
-          "caption": "Split Tunnel"
+          "caption": "Split Tunnel",
+          "description": "The tunnel configuration routes only specific traffic through the tunnel."
         },
         "2": {
-          "caption": "Full Tunnel"
+          "caption": "Full Tunnel",
+          "description": "The tunnel configuration routes all traffic through the tunnel."
         },
         "99": {
-          "caption": "Other"
+          "caption": "Other",
+          "description": "The type of tunnel configuration is not defined by the event source."
         }
       }
     },
