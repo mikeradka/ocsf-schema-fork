@@ -6714,12 +6714,12 @@
     },
     "tunnel_type": {
       "caption": "Type",
-      "description": "The tunnel type. See specific usage.",
+      "description": "The type of tunnel configuration, indicating the scope of traffic routed through the connection. See specific usage.",
       "type": "string_t"
     },
     "tunnel_type_id": {
       "caption": "Tunnel Type ID",
-      "description": "The normalized tunnel type ID.",
+      "description": "The normalized identifier for the type of tunnel configuration, indicating the scope of traffic routed through the connection. See specific usage.",
       "sibling": "tunnel_type",
       "type": "integer_t",
       "enum": {
