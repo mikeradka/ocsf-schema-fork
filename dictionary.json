@@ -6713,7 +6713,7 @@
       "type": "network_interface"
     },
     "tunnel_type": {
-      "caption": "Type",
+      "caption": "Tunnel Type",
       "description": "The type of tunnel configuration, indicating the scope of traffic routed through the connection. See specific usage.",
       "type": "string_t"
     },
