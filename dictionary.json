@@ -6824,7 +6824,7 @@
     },
     "updated_web_resources": {
       "caption": "Updated Web Resources",
-      "description": "The attempted or actual <code>web_resources</code> object update relative to the event <code>status_id</code> (e.g. <code>Success</code>, </code>Failure</code>)",
+      "description": "The attempted or actual <code>web_resources</code> object update relative to the event <code>status_id</code> (e.g. <code>Success</code>, </code>Failure</code>).",
       "type": "web_resource",
       "is_array": true
     },
