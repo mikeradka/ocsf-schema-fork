@@ -7054,7 +7054,11 @@
       "caption": "Web Resources Result",
       "description": "The results of the activity on web resources. It should contain the new values of the changed attributes of the web resources.",
       "type": "web_resource",
-      "is_array": true
+      "is_array": true,
+      "@deprecated": {
+        "message": "Use the <code>updated_web_resources</code> attribute instead.",
+        "since": "1.9.0"
+      }
     },
     "whois": {
       "caption": "WHOIS",

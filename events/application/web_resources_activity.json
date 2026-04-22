@@ -75,7 +75,11 @@
     },
     "web_resources_result": {
       "group": "primary",
-      "requirement": "recommended"
+      "requirement": "recommended",
+      "@deprecated": {
+        "message": "Use the <code>updated_web_resources</code> attribute instead.",
+        "since": "1.9.0"
+      }
     }
   },
   "profiles": [
