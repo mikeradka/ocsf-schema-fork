@@ -6822,6 +6822,12 @@
       "description": "The number of unused services. See specific usage.",
       "type": "integer_t"
     },
+    "updated_web_resources": {
+      "caption": "Updated Web Resources",
+      "description": "The attempted or actual <code>web_resources</code> object update relative to the event `status_id` (e.g. `Success`, `Failure`, etc.)",
+      "type": "web_resource",
+      "is_array": true
+    },
     "uploaded_time": {
       "caption": "Uploaded Time",
       "description": "The timestamp at which an entity was uploaded. See specific usage.",
