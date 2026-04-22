@@ -6714,7 +6714,7 @@
     },
     "tunnel_type": {
       "caption": "Tunnel Type",
-      "description": "The type of tunnel configuration, normalized to the caption of the tunnel_type_id value, indicating the scope of traffic routed through the connection. See specific usage.",
+      "description": "The type of tunnel configuration, normalized to the caption of the <code>tunnel_type_id</code> value, indicating the scope of traffic routed through the connection. See specific usage.",
       "type": "string_t"
     },
     "tunnel_type_id": {
