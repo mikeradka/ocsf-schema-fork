@@ -81,6 +81,10 @@
     "entity_result": {
       "group": "primary",
       "requirement": "recommended"
+    },
+    "updated_entity": {
+      "group": "primary",
+      "requirement": "recommended"
     }
   }
 }

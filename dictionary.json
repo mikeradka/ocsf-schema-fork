@@ -2504,7 +2504,11 @@
     "entity_result": {
       "caption": "Entity Result",
       "description": "The updated managed entity.",
-      "type": "managed_entity"
+      "type": "managed_entity",
+      "@deprecated": {
+        "message": "Use the <code>updated_entity</code> attribute instead.",
+        "since": "1.9.0"
+      }
     },
     "environment_variables": {
       "caption": "Environment Variables",
@@ -6821,6 +6825,11 @@
       "caption": "Unused Services Count",
       "description": "The number of unused services. See specific usage.",
       "type": "integer_t"
+    },
+    "updated_entity": {
+      "caption": "Updated Entity",
+      "description": "The new or intended state of the <code>entity</code> after the update. On <code>Success</code>, represents the actual post-update state; on <code>Failure</code>, represents the intended update that was not applied.",
+      "type": "managed_entity"
     },
     "updated_user": {
       "caption": "Updated User",
