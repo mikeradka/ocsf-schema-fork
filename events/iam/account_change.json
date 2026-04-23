@@ -77,6 +77,10 @@
       },
       "profile": null
     },
+    "updated_user": {
+      "group": "primary",
+      "requirement": "recommended"
+    },
     "user": {
       "description": "The user that was a target of an activity.",
       "group": "primary",
