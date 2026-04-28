@@ -6832,23 +6832,23 @@
     },
     "updated_entity": {
       "caption": "Updated Entity",
-      "description": "The new or intended state of the <code>entity</code> after the update. On <code>Success</code>, represents the actual post-update state; on <code>Failure</code>, represents the intended update that was not applied.",
+      "description": "The intended state of the <code>entity</code> after the update. On <code>Success</code>, represents the actual post-update state.",
       "type": "managed_entity"
     },
     "updated_resources": {
       "caption": "Updated Resources",
-      "description": "The new or intended state of the <code>resources</code> after the update. On <code>Success</code>, represents the actual post-update state; on <code>Failure</code>, represents the intended update that was not applied.",
+      "description": "The intended state of the <code>resources</code> after the update. On <code>Success</code>, represents the actual post-update state.",
       "type": "resource_details",
       "is_array": true
     },
     "updated_user": {
       "caption": "Updated User",
-      "description": "The new or intended state of the <code>user</code> after the update. On <code>Success</code>, represents the actual post-update state; on <code>Failure</code>, represents the intended update that was not applied.",
+      "description": "The intended state of the <code>user</code> after the update. On <code>Success</code>, represents the actual post-update state.",
       "type": "user"
     },
     "updated_web_resources": {
       "caption": "Updated Web Resources",
-      "description": "The new or intended state of the <code>web_resources</code> after the update. On <code>Success</code>, represents the actual post-update state; on <code>Failure</code>, represents the intended update that was not applied.",
+      "description": "The intended state of the <code>web_resources</code> after the update. On <code>Success</code>, represents the actual post-update state.",
       "type": "web_resource",
       "is_array": true
     },
