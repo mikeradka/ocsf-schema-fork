@@ -2722,7 +2722,11 @@
     "file_result": {
       "caption": "File Result",
       "description": "The result of the file change. It should contain the new values of the changed attributes.",
-      "type": "file"
+      "type": "file",
+      "@deprecated": {
+        "message": "Use the <code>updated_file</code> attribute instead.",
+        "since": "1.9.0"
+      }
     },
     "files": {
       "caption": "Files",
@@ -6875,6 +6879,11 @@
       "caption": "Updated Entity",
       "description": "The intended state of the <code>entity</code> after the update. On <code>Success</code>, represents the actual post-update state.",
       "type": "managed_entity"
+    },
+    "updated_file": {
+      "caption": "Updated File",
+      "description": "The intended state of the <code>file</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "type": "file"
     },
     "updated_resources": {
       "caption": "Updated Resources",

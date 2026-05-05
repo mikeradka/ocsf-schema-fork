@@ -146,6 +146,10 @@
       "description": "The endpoint that performed the activity on the target file.",
       "group": "primary",
       "requirement": "required"
+    },
+    "updated_file": {
+      "group": "context",
+      "requirement": "optional"
     }
   }
 }
