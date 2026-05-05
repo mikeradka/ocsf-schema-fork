@@ -106,7 +106,7 @@
       "requirement": "recommended"
     },
     "updated_file": {
-      "description": "The intended state of the <code>file</code> after the update, including the `Update`, `Rename` and `Set` activities. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The intended state of the <code>file</code> after the update, including the <code>Update</code>, <code>Rename</code>, and <code>Set</code> activities. On <code>Success</code>, represents the actual post-update state.",
       "group": "primary",
       "requirement": "recommended"
     }
