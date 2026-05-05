@@ -148,6 +148,7 @@
       "requirement": "required"
     },
     "updated_file": {
+      "description": "The intended state of the <code>file</code> after the update, including the `Update`, `Rename`, and `Move` activities",
       "group": "context",
       "requirement": "optional"
     }
