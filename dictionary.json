@@ -6882,7 +6882,7 @@
     },
     "updated_entity": {
       "caption": "Updated Entity",
-      "description": "The upadted <code>entity</code>. See specific usage.",
+      "description": "The updated entity. See specific usage.",
       "type": "managed_entity"
     },
     "updated_file": {
