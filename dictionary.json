@@ -6882,12 +6882,12 @@
     },
     "updated_entity": {
       "caption": "Updated Entity",
-      "description": "The intended state of the <code>entity</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The upadted <code>entity</code>. See specific usage.",
       "type": "managed_entity"
     },
     "updated_file": {
       "caption": "Updated File",
-      "description": "The intended state of the <code>file</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The updated file. See specific usage.",
       "type": "file"
     },
     "updated_resources": {
