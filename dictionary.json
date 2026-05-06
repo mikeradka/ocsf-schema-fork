@@ -6903,7 +6903,7 @@
     },
     "updated_web_resources": {
       "caption": "Updated Web Resources",
-      "description": "The intended state of the <code>web_resources</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The updated web resources. See specific usage.",
       "type": "web_resource",
       "is_array": true
     },
