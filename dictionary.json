@@ -6892,7 +6892,7 @@
     },
     "updated_resources": {
       "caption": "Updated Resources",
-      "description": "The intended state of the <code>resources</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The updated resources. See specific usage.",
       "type": "resource_details",
       "is_array": true
     },
