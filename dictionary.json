@@ -6898,7 +6898,7 @@
     },
     "updated_user": {
       "caption": "Updated User",
-      "description": "The intended state of the <code>user</code> after the update. On <code>Success</code>, represents the actual post-update state.",
+      "description": "The updated user. See specific usage.",
       "type": "user"
     },
     "updated_web_resources": {
@@ -6953,11 +6953,7 @@
     "user_result": {
       "caption": "User Result",
       "description": "The result of the user account change. It should contain the new values of the changed attributes.",
-      "type": "user",
-      "@deprecated": {
-        "message": "Use the <code>updated_user</code> attribute instead.",
-        "since": "1.9.0"
-      }
+      "type": "user"
     },
     "users": {
       "caption": "Users",
